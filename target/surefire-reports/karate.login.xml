@@ -1,0 +1,5 @@
+<testsuite failures="0" name="karate/login.feature" skipped="0" tests="1" time="0.009123">
+  <testcase classname="karate.login" name="using" time="0.009123">
+    <system-out>Then print 'login msg verified' ........................................... passed</system-out>
+  </testcase>
+</testsuite>

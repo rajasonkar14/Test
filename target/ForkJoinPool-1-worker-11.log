@@ -1,0 +1,29 @@
+11:24:49.155 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 39
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+{"name": "morpheussss","job": "leader"}
+
+11:24:50.695 response time in milliseconds: 1537.37
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b5a6e07ffbac38b-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 51
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 20 Jul 2020 05:54:50 GMT
+1 < Etag: W/"33-Iam1ZaROtdwfuUsPJOw0cz0as8I"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d9dfa557e30bf19a9f9beeb05199c84691595224490; expires=Wed, 19-Aug-20 05:54:50 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 040c6318f70000c38b9226a200000001
+{"id":"473","createdAt":"2020-07-20T05:54:50.505Z"}
+
+11:24:50.703 [print] Post method cpmlt

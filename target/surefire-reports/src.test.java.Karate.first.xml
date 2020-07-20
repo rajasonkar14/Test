@@ -1,0 +1,11 @@
+<testsuite failures="0" name="src/test/java/Karate/first.feature" skipped="0" tests="1" time="1.01054">
+  <testcase classname="src.test.java.Karate.first" name="call  staic function from java class" time="1.01054">
+    <system-out>* def load = read("payload.json") ......................................... passed
+* url 'https://reqres.in/api/' ............................................ passed
+* def fea = read ('login.feature') ........................................ passed
+* def resultLogin = callonce fea .......................................... passed
+* def JavaDemo = Java.type('test.Message') ................................ passed
+* def res = JavaDemo.m(); ................................................. passed
+Then print res ............................................................ passed</system-out>
+  </testcase>
+</testsuite>

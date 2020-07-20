@@ -1,0 +1,34 @@
+11:24:49.156 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 26
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+{"name":<name>,"job":buss}
+
+11:24:50.695 response time in milliseconds: 1538.17
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5b5a6e07eeeedd9f-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 51
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 20 Jul 2020 05:54:50 GMT
+1 < Etag: W/"33-B2wcT9P6aYsvRgLdS9Aa6DaS2NM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d14490cbd87d6bb67721fd800ac2e83811595224490; expires=Wed, 19-Aug-20 05:54:50 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 040c6318f40000dd9f553f4200000001
+{"id":"619","createdAt":"2020-07-20T05:54:50.509Z"}
+
+11:24:50.716 [print] Scenario outline test case with csv file
+11:24:50.719 [print] {
+  "createdAt": "2020-07-20T05:54:50.509Z",
+  "id": "619"
+}
+
